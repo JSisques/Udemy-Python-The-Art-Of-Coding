@@ -6,7 +6,7 @@ print()
 firstLeg = float(input("What is the first leg of the triangle: "))
 secondLeg = float(input("What is the second leg of the triangle: "))
 
-hypotenuse = round( math.sqrt((firstLeg ** 2) + (secondLeg ** 2)), 3)
+hypotenuse = round( math.sqrt((firstLeg ** 2) + (secondLeg ** 2)), 2)
 area = (firstLeg * secondLeg) / 2
 
 print("For a triangle with legs of  " + str(firstLeg) + " and " + str() + " the hypotenuse is " + str(hypotenuse))
