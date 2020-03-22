@@ -1,0 +1,5 @@
+print("Welcome to the MPH to MPS Conversion APP")
+print()
+mph = float(input("What is your speed in miles per hour: "))
+mps = round(mph / 2.237, 2)
+print("Your speed in meters per second is " + str(mps))

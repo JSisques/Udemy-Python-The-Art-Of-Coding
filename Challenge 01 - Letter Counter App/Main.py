@@ -10,9 +10,7 @@ letterToFind = input("Which letter would yo like to count: ").upper()
 
 numberOfLetters = 0
 
-for letter in message:
-    if letter == letterToFind:
-        numberOfLetters += 1
+numberOfLetters = message.count(letterToFind)
 
 print()
 print(str(userName) + ", your text has " + str(numberOfLetters) + " " + str(letterToFind) + "´s in it")
